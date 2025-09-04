@@ -3,5 +3,15 @@
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+  {
+    "file": "experiments/visage.js",
+    "name": "The visage",
+    "description": "The inspiration behind this project were the stained glasses in the church. I wanted to experiment with an hourglass shape and different shades of purple."
+  },
+  {
+    "file": "experiments/flower.js",
+    "name": "Flower field",
+    "description": "Grid of flowers with a different variation of shades and transparency."
   }
 ]
