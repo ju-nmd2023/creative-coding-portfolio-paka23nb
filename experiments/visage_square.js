@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 800);
+  createCanvas(1000, 800);
   frameRate(5);
 }
 
@@ -45,16 +45,10 @@ function drawLayers(x, y, size, layers) {
 
 function draw() {
   background(255);
-  // translate(width / 2, height / 2);
-  let x;
-  let y;
-  translate(x, y);
-  //CREATES THE GRID
+
   for (let y = 0; y < 10; y++) {
     for (let x = 0; x < 10; x++) {
       drawLayers(size / 2 + x * size, size / 2 + y * size, size, layers);
     }
   }
-  //   noLoop();
-  loop(10);
 }

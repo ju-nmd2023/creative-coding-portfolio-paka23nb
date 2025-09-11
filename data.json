@@ -1,17 +1,27 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  },
-  {
-    "file": "experiments/visage.js",
-    "name": "The visage",
+    "file": "experiments/visage_square.js",
+    "name": "The visage 1",
     "description": "The inspiration behind this project were the stained glasses in the church. I wanted to experiment with an hourglass shape and different shades of purple."
   },
   {
-    "file": "experiments/flower.js",
-    "name": "Flower field",
-    "description": "Grid of flowers with a different variation of shades and transparency."
+    "file": "experiments/visage_circle.js",
+    "name": "The visage 2",
+    "description": "The simmilar recreation of first project, using different shapes and colors."
+  },
+  {
+    "file": "experiments/flower_opacity.js",
+    "name": "Flower field 1",
+    "description": "Field of flower with full randomness in color and transparency."
+  },
+  {
+    "file": "experiments/flower_rotation.js",
+    "name": "Flower field 2",
+    "description": "Recreation of the flower field, using rotation and an HSB color palete."
+  },
+  {
+    "file": "experiments/kalaidescope.js",
+    "name": "Kalaidescope",
+    "description": "Interactive piece of work, using your mouse you can create your own Kalaidescope that will blend in within itself."
   }
 ]
