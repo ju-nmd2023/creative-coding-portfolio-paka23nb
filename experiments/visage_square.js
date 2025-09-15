@@ -12,6 +12,7 @@ function getRandomValue(pos, variance) {
 
 //CREATES MULTIPLE SQUARES OF DIFFERENT SIZES INSIDE EACHOTHER
 function drawLayers(x, y, size, layers) {
+  noStroke();
   fill(random(10, 255), 0, 100, random(10, 100));
   //MAKES IT LESS RANDOM
   const variance = size / 10;

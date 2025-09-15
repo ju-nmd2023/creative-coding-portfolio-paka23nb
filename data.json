@@ -10,6 +10,11 @@
     "description": "The simmilar recreation of first project, using different shapes and colors."
   },
   {
+    "file": "experiments/perlin_noise.js",
+    "name": "Perlin Noise",
+    "description": "Interactive piece of work, inspired by the artwork of Perlin Noise."
+  },
+  {
     "file": "experiments/flower_opacity.js",
     "name": "Flower field 1",
     "description": "Field of flower with full randomness in color and transparency."
@@ -23,5 +28,15 @@
     "file": "experiments/kalaidescope.js",
     "name": "Kalaidescope",
     "description": "Interactive piece of work, using your mouse you can create your own Kalaidescope that will blend in within itself."
+  },
+  {
+    "file": "experiments/fireworks.js",
+    "name": "Fireworks",
+    "description": "Interactive piece of work, pressing and dragging your mouse will generate particles resembling fireworks."
+  },
+  {
+    "file": "experiments/fireworks_2.js",
+    "name": "Fireworks",
+    "description": "Interactive piece of work, pressing and dragging your mouse will generate particles resembling fireworks."
   }
 ]
