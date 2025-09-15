@@ -19,12 +19,12 @@ function draw() {
   for (let y = 0; y < numRows; y++) {
     for (let x = 0; x < numCols; x++) {
       const value = noise(x / divider, y / divider, counter) * size;
-      fill(random(255), random(255), random(255));
+      fill(0, random(150, 200), random(150, 200), random(150, 255));
       ellipse(size / 2 + x * size, size / 2 + y * size, value);
     }
   }
 }
 
-function mouseDragged() {
+function mouseMoved() {
   counter += 0.05;
 }
