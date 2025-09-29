@@ -23,3 +23,7 @@ function draw() {
     }
   }
 }
+
+function mouseMoved() {
+  counter += 0.05;
+}
