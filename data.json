@@ -36,7 +36,12 @@
   },
   {
     "file": "experiments/fireworks_2.js",
-    "name": "Fireworks",
-    "description": "Interactive piece of work, pressing and dragging your mouse will generate particles resembling fireworks."
+    "name": "Star Particles",
+    "description": "Interactive piece of work, pressing and dragging your mouse will generate particles resembling star shapes."
+  },
+  {
+    "file": "experiments/perlin_noise_sound.js",
+    "name": "Perlin Noise - Interaction with noise",
+    "description": "Interactive piece of work, pressing and dragging your mouse will cause the artwork to move, alongside different sounds.."
   }
 ]

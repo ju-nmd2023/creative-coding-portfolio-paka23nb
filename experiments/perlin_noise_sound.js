@@ -1,6 +1,10 @@
+let synth;
+
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(30);
+
+  synth = new Tone.Synth().toDestination();
 }
 
 const size = 20;
@@ -22,4 +26,15 @@ function draw() {
       ellipse(size / 2 + x * size, size / 2 + y * size, value);
     }
   }
+}
+
+//Inspiration behind code: https://tonejs.github.io/docs/15.1.22/classes/Synth.html
+
+function mouseMoved() {
+  counter += 0.05;
+
+  Tone.start();
+
+  let freq = map(mouseX, 0, width, 200, 1000);
+  synth.triggerAttackRelease(freq, "8n");
 }
